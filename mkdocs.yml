@@ -1,4 +1,4 @@
-site_name: Platform Documentation
+site_name: Darsana's Site
 theme:
   name: material
   dark_mode: true
@@ -7,78 +7,17 @@ theme:
   config:
 
 nav:
-  - Overview: 
-    - About the Platform: index.md 
-    - Getting Started: 1.Getting Started_V5.1_D2.0.md
-    - Dashboard: 2.Dashboard_V5.1_D2.0.md
-  - Version 6.1:
-    - Release Notes:
-      - Release Notes 6.1: Version6.1/ReleaseNotes/ReleaseNotes_6.1-V2.0.md 
-    - User Manuals:
-      - What's New in V6.1?: Version6.1/index6.1.md
-      - App Studio: Version6.1/App Studio_V6.1_2.0.md
-      - Process Flows:
-        - Managing Processflows: Version6.1/9.Managing Process Flows_V6.1_D2.0.md
-        - Processflow Basic Activities: Version6.1/10.ProcessFlow-BasicActivities_V6.1_D2.0.md
-      - Activity Panel: Version6.1/11.Activity Panel_V6.1_D2.0.md
-      - Workflow Design Canvas: Version6.1/12.Design Canvas_V6.1_D2.0.md 
-      - Business Entities:
-        - Business Entities - Generic Aspects: Version6.1/Business Entities_Generic AspectsV6.1_2.1.md
-        - Business Entities - Creation, Configuration and Utilization: Version6.1/BusinessEntitiesConfigurationAndUtilization_V6.1_2.1.md
-      #- Forms 2.0:
-       # - Managing and Utilizing Forms 2.0: Version6.1/Managing Forms2.0_V5.1_2.0.md
-       # - Working with HTML Forms: Version6.1/Form2.0HTML_Designing HTML Forms and HTML Layouts_V6.1_2.0.md
-       # - HTML Basic Components: Version6.1/Form2.0-HTML_BasicComponents_V6.1_2.0.md
-       # - HTML Special Components: Version6.1/Form2.0-HTML_SpecialComponents_V6.1_2.0.md
-      - Workspace: Version6.1/Workspace_V6.1_2.0.md
-      - Forms:
-        - Managing and Utilizing Forms: Version6.1/Managing and Utilizing Form3.0_V6.1_2.0.md
-        - Forms2.0 Designer and HTML Layout Controls: Version6.1/Form2.0HTML_Designing HTML Forms and HTML Layouts_V6.1_2.0.md
-        - Forms2.0 HTML Basic Components: Version6.1/Form2.0-HTML_BasicComponents_V6.1_2.0.md
-        - Forms2.0 HTML Special Components: Version6.1/Form2.0-HTML_SpecialComponents_V6.1_2.0.md
-      - Views:  
-        - View Designer: Version6.1/View Designer_Forms3.0_V6.1_2.0.md
-        - View HTML Components: Version6.1/Views_HTMLControls_V6.1_2.0.md
-        - View Style Configurations: Version6.1/Views_Styles Config_V6.1_2.0.md
-        - View Form Controls: Version6.1/Views_Form Controls_V6.1_2.0.md
-        - Data Grid: Version6.1/Views_GridConfiguration_V6.1_2.2.md
-      - Web Apps: Version6.1/Web Apps_V6.1_D2.0.md
-      - Customizations:
-        - User Settings: Version6.1/User Settings_V6.1_D2.0.md
-        - Page Configurations: Version6.1/Page Configurations_V6.1_2.0.md
-        - Platform Instance Configurations: Version6.1/Platform Instance Configurations_V6.1_2.0.md
-        - MFA in Platform: Version6.1/MFA in Platform_V6.1_2.0.md
-        - Audit Details: Version6.1/Audit Details_V6.1_2.0.md
-      - Application Management: Version6.1/Application Management_V6.1_2.0.md
-      - Licence Management: Version6.1/4.License Management_V6.1_D2.0.md
-      - Organization Management: Version6.1/5.Organization Management_V6.1_D2.0.md
-      - Configuration Management:
-        - Configuration Entities: Version6.1/Configuration Entities_V6.1_2.0.md
-        - Data Source: Version6.1/Datasource Configuration_V6.1_2.0.md
-        - Custom Activity: Version6.1/Custom Activity Configuration_V6.1_2.0.md #can copy for 5.1 also
-        - IDP: Version6.1/IDP Configurations_V6.1_2.0.md
-        - External Connectors: Version6.1/External Connector Configuration_V6.1_D2.0.md
-      - Data Catalog Management: Version6.1/DataCatalog_V6.1_2.0.md
-      - Custom Attributes Management: Version6.1/Custom Attributes_V6.1_D2.0.md
-      
-      - RPA:
-        - RPA Bot Studio: Version6.1/RPA Bot Studio_V61_2.1.md
-        - RPA Bot Studio Toolbox Activties: Version6.1/RPA Bot Studio_ToolboxActivities_V6.1_D2.2.md
-        - RPA Bot Studio MS Office 365 Activities: Version6.1/RPA Bot Studio_MSOffice365Activities_V6.1_2.2.md 
-        - RPA Bot Agent: Version6.1/RPA Bot Agent_V6.1_2.1.md
-        - Platform RPA Management: Version6.1/RPA Management_V6.1_2.1.md
-      - Generative AI: 
-        - GenIQ Process Flow Activities: Version6.1/GenIQ Process Flow Activities_V6.1_2.0.md
-      - Custom Portlets:
-        - Business Rules Management System (BRMS): Version6.1/DMN Portlet_V6.1_2.0.md
-        - Log Viewer: Version6.1/LogViewer_V6.1_2.0.md
-        - Module Deployment Utility: Version6.1/ModuleDeploymentUtility_V6.1_2.0.md
-        - MySQL WorkBench Integration: Version6.1/MySQLWorkBenchIntegration_V6.1_2.0.md    
+  - Introduction: index.md
+  - Professional Info:
+    - Curriculum Vitae: Curriculum Vitae.md
+    - Skill Set: Skillset.md
+    - Sample Works: Sample.md
+  - Personal Info: Personal.md
+  - About This Site: 
+    - Site Info: AboutSite.md
+    - Copyright: DoNotCopy.md
   - Appendix:
-    - Appendix: Appendix.md
-  - Help:
-    - FAQs: FREQUENTLY_ASKED_QUESTIONS.md
-
+    - FAQs: FAQs.md
 markdown_extensions:
   toc:
     permalink: true
@@ -90,6 +29,6 @@ extra:
   version:
     provider: mike
   generator: false
-copyright: Copyright &copy; 2025 Platform | All Rights Reserved.
+copyright: Copyright &copy; 2025 Darsana KS | All Rights Reserved.
 
 
