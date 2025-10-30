@@ -23,6 +23,8 @@ details  {
       border-radius: 8px;
       box-shadow: 2px 2px 4px rgba(0, 0, 0, 1.4);
       cursor: pointer;
+      padding-left: 0;
+      text-align: left;
       /*font-size: 14px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;*/
     }
@@ -35,6 +37,9 @@ details  {
       /*font-size: 14px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;*/
       line-height: 1.5;
+      text-align: left;
+      padding-left: 0;
+      margin-left: 0;
         }
     p {
         line-height: 1.5; /* Adjust the value to set the desired line height */
@@ -76,7 +81,7 @@ details  {
             <p>I am a simple and cool person who always who adapts to situation and tries to stay positive.<br>My name is Darsana and I come from Bangalore, a city in India.<br>
             I pursued my lower education and higher education in Kerala, a state in India. After completing my studies, I moved to Bangalore for Job opportunities.<br>
             I hold Master's degree in Mathematics and Post Graduate Diploma in Computer Applications.<br>
-            I started my career as a technical editor and proof reader where I worked on scientific journals and thesis reports. After completing almost 5 years as a technical editor, I had a maternity break.<br>
+            I started my career as a technical editor and proof reader where I worked on scientific journals and thesis reports. After 5+ years as a technical editor, I took a maternity and child care break.<br>
             After the break, I had a strong will to upgrade my career goals and started learning about technical writing. Later on, I got into technical writing and from then I am a enthusiastic technical writer always trying to upgrade myself in different aspects of writing.
             </p>
             </details>
@@ -86,14 +91,14 @@ details  {
             Two years I was completely on a break, however, third year I started to work partially as an editor.</p>
             </details>
             <details onclick="toggleAccordion(this)">
-            <summary>Wwhy do you want to move to Europe?</summary>
-            <p>I came to Hungary in a family reunification visa. I started liking the people culture and the development seen in Europe.<br>
+            <summary>Why do you want to move to Europe?</summary>
+            <p>I came to Hungary through a family reunification visa. I started liking the people culture and the development seen in Europe.<br>
             I travelled to places and I felt that I should be part of this lifestyle. My daughter also likes to be here.<br>
             After that I explored the jobs market here and I was really excited to see that technical writer position is a valued position in European IT sector. As I always wanted to enhance and take my career to new levels, I thought to explore the opportunities.</p>
             </details>
             <details onclick="toggleAccordion(this)">
             <summary>Are you looking for a long-term or contract based jobs?</summary>
-            <p>I am looking for a long-term/permanant environment where I can contribute and grow my career.</p>
+            <p>I am looking for a long-term/permanant environment where I can contribute to the organization and grow along with it.</p>
             </details>
             <details onclick="toggleAccordion(this)">
             <summary>Do you need work visa in the country applied for?</summary>
@@ -116,7 +121,7 @@ details  {
             </details>
             <details onclick="toggleAccordion(this)">
             <summary>What do you want to convey to the reader?</summary>
-            <p>I believe in continuous learning and growth; let it be personally or professionaly. Hence I am prpared to takeup any career challenges or upgrade myself to adhere to the requirement.<br>
+            <p>I believe in continuous learning and growth; let it be personally or professionaly. Hence I am prepared to takeup any career challenges for my career or upgrade myself to adhere to the requirement.<br>
             Being positive is my strength.</p>
             </details>
             <!-- 
