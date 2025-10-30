@@ -3,8 +3,8 @@ theme:
   name: material
   dark_mode: true
   sticky_navigation: false
-  highlightjs: true   
-  config:
+  highlightjs: true
+  config: {} # Use an empty mapping if no specific options are needed under config
 
 nav:
   - Introduction: index.md
@@ -13,14 +13,18 @@ nav:
     - Skill Set: Skillset.md
     - Sample Works: Sample.md
   - Personal Info: Personal.md
-  - About This Site: 
+  - About This Site:
     - Site Info: AboutSite.md
     - Copyright: DoNotCopy.md
   - Appendix:
     - FAQs: FAQs.md
+
 markdown_extensions:
-  toc:
-    permalink: true
+  - admonition
+  - pymdownx.details
+  - toc:
+      permalink: true
+
 extra_javascript:
   - Styles.js
 extra_css:
@@ -30,5 +34,3 @@ extra:
     provider: mike
   generator: false
 copyright: Copyright &copy; 2025 Darsana KS | All Rights Reserved.
-
-

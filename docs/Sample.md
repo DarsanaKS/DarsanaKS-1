@@ -5,7 +5,7 @@
 ## User Manual: [Sample PDF](https://darsanaks.github.io/DarsanaKS/Sample%20User%20Manual%201.pdf)
 
 ## API Documentation: [Sample PDF](https://darsanaks.github.io/DarsanaKS/TW%20API%20Doc.pdf)
-### Product Inventory API Documentation
+### Sample Product Inventory API Documentation
 
 This document describes the endpoints for the Product Inventory API, allowing users to view, search, and manage product records. All endpoints require authentication and are accessible via the base URL: `https://api.yourcompany.com/v1`.
 
@@ -50,7 +50,9 @@ json
       "stock_count": 50,
       "is_active": true
     }
-    // ... more products
   ]
 }
 ```
+
+Note:<br>
+**Total**: This is the total number of all available records in the entire database that match the query, not just the ones returned in the current response.

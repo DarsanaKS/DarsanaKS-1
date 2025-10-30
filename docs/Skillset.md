@@ -31,7 +31,7 @@
   <li>Test Case</li>
   <li>FAQ</li>
   <li>Docs-as-Code</li>
-  <li>DITA/li>
+  <li>DITA</li>
   </ul>
 
   </div>
