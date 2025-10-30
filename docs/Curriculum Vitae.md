@@ -6,7 +6,7 @@ Budapest, Hungary | [darsana13@gmail.com](mailto:darsana13@gmail.com) | +3630742
 **LinkedIn**: [https://www.linkedin.com/in/darsana-ks](https://www.linkedin.com/in/darsana-ks)<br>
 **Portfolio**: [https://darsanaks.github.io/DarsanaKS/](https://darsanaks.github.io/DarsanaKS/)<br>
 
-**Date of Birth**: 13 Nov 1980
+**Date of Birth**: 13 Nov 1980<br>
 **Nationality**: Indian
 <br>
 
