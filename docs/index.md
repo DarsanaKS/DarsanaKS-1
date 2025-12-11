@@ -22,7 +22,7 @@ Developer Documentation | UX Writing | Testing | Editing
 ## About Me
 <center><img src="Dars3.JPG" alt="Darsana" title="Darsana KS" width="300" /></center><br>
 
-I am a simple and cool person who always tries to see the positive and vibrant part of life.<br>
+I am a versatile and adaptive person who always tries to see the positive and vibrant part of life.<br>
 I love to travel and I am keen to explore the things around me.<br>
 Being a multilingual person, I give an effort to learn new languages as well.<br>
 
