@@ -59,7 +59,7 @@ json
       "stock_count": 50,
       "is_active": true
     }
-        {
+    {
       "product_id": "PRD-4522",
       "name": "Standard Widget2",
       "price": 19.99,
@@ -75,11 +75,9 @@ json
 The terms total, limit, offset, and data are standard conventions used, specifically for handling pagination.<br>
 The pagination fields - total, limit, offset, data - are used to manage a large dataset that is too big to return in a single response (e.g., if you have 10,000 products).
 
-Total: This is the total number of all available records in the entire database that match the query, not just the ones returned in the current response.
-
-Category: The category parameter comes from the imaginary requirements of the Product Inventory Service.
-
-Data: This is the primary key that holds the actual list of product objects (the items being requested).
+**Total**: This is the total number of all available records in the entire database that match the query, not just the ones returned in the current response.<br>
+**Category**: The category parameter comes from the imaginary requirements of the Product Inventory Service.<br>
+**Data**: This is the primary key that holds the actual list of product objects (the items being requested).
 
 
 

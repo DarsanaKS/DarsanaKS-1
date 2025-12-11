@@ -78,7 +78,7 @@ details  {
             <br>
             <details onclick="toggleAccordion(this)">
             <summary>Can you tell me about yourself?</summary>
-            <p>I am a simple and cool person who always who adapts to situation and tries to stay positive.<br>My name is Darsana and I come from Bangalore, a city in India.<br>
+            <p>I am a versatile and adaptable person who always who adapts to situation and tries to stay positive.<br>My name is Darsana and I come from Bangalore, a city in India.<br>
             I pursued my lower education and higher education in Kerala, a state in India. After completing my studies, I moved to Bangalore for Job opportunities.<br>
             I hold Master's degree in Mathematics and Post Graduate Diploma in Computer Applications.<br>
             I started my career as a technical editor and proof reader where I worked on scientific journals and thesis reports. After 5+ years as a technical editor, I took a maternity and child care break.<br>
