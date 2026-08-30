@@ -1,0 +1,125 @@
+site_name: Darsana's Site
+theme:
+  name: material
+  logo: assets/img/dks-icon5.png
+  favicon: assets/img/dks-fav4.png  # The favicon appears in the browser tab
+  #custom_dir: overrides
+  font:
+    text: Noto Sans
+    code: Roboto Mono  # for code blocks
+  features:
+    - content.code.copy # Optional: adds copy button to code
+    #- navigation.expand    # This enables collapsible arrows/accordions
+    #- navigation.sections # Recommended: groups items nicely , Clean sidebar grouping
+    - navigation.indexes   # Recommended: Allows parent folders to be clickable links
+    - navigation.tracking    # Optional: highlights the section as you scroll
+    - navigation.top       # Optional: Adds a "Back to top" button
+    - navigation.tabs          # Enables the secondary horizontal bar
+    - navigation.tabs.sticky   # (Optional) Keeps the bar visible when scrolling.
+    - search.suggest
+    - search.highlight
+    - content.tabs.link # only applies to tabs if it is there
+    - content.tooltips # link or abbr tooltip
+    - content.code.annotate
+    - navigation.footer # Back / Next
+    - navigation.pagination # This puts the Prev/Next links inside the content area
+    - navigation.instant     # Faster navigation
+  dark_mode: true
+  sticky_navigation: false
+  highlightjs: true   
+  config:
+  palette:
+  # Light mode
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Switch to Dark mode
+    primary: blue
+    accent: deep purple
+  # Dark mode - slate
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Switch to Light mode
+    primary: deep blue
+    accent: deep purple
+plugins:
+  - search
+  - swagger-ui-tag
+  - section-index # to provide file reference for accordion heads
+  - mermaid2
+  #- macros:
+      #module_name: mkdocs_pymacros/tier_logic  # It will look for tier_logic.py 
+      #on_undefined: strict # Optional: Fails the build if you have a typo in a variable
+      #include_yaml:
+        #- variables.yaml
+      # main.py is loaded automatically if it's in the root folder
+  - glightbox # for notes pics
+  - monorepo # sepate yml for separte sections-not used
+
+nav:
+  - Home: index.md 
+  - About:  
+    - About Me: personal/about-personal.md
+    - Personal Info: personal/personal-info.md
+    - FAQ: personal/faq.md
+    - About This Site:  
+      - Site Info: site-info/about-site.md
+      - Copyright: site-info/copyright.md
+      - Declaration: site-info/declaration.md
+  - Professional Profile:
+    - Career Summary: cv-files/summary.md
+    - CV: cv-files/cv.md
+    - Skill Set: cv-files/skill-set.md
+    - Qualifications: cv-files/qualification.md
+    - Previous Organizations: work/company2.md
+  - Sample Works:
+    - API Ref: api/api-sample.md
+    - PDF Docs: samples/sample-page.md
+  - Contact: 
+      personal/contact.md
+        
+markdown_extensions:
+  - toc:
+      title: On this page
+      permalink: false
+  - attr_list          # Allows adding CSS classes to headings
+  - abbr
+  - md_in_html         # supporting md in html. Required for the Grid layout
+  - pymdownx.emoji:    # Allows icons like :material-crown:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.caret     # Allows superscript ^E^
+  - admonition # this is for different note types
+  - pymdownx.details # Optional: allows "Collapsible" notes
+  - pymdownx.tabbed: # for creating tabs
+      alternate_style: true # tabs - Modern Material look
+  - pymdownx.superfences:
+      custom_fences: 
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
+  - pymdownx.snippets:
+      check_paths: true
+
+extra_javascript:
+  - assets/js/styles.js
+extra_css:
+  - assets/stylesheets/styles2.css
+  - assets/stylesheets/landing-page.css
+  - assets/stylesheets/footer.css
+  - assets/stylesheets/table.css
+  - assets/stylesheets/custom-admonitions.css
+  - assets/stylesheets/page1.css
+extra_files:
+  - api/swagger-view.html  
+  #- api/sampleapi2.yaml
+  - api/hide-items.js
+extra:
+  version:
+    provider: mike
+  generator: false
+copyright: Build with mkdocs-material | Copyright &copy; 2026 darsanaks | All Rights Reserved.
+
+
